@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chatapp</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="mx-auto max-w-sm px-4 box">
+        <div class="space-y-8">
+            <div class="space-y-2 text-center">
+                <a class="inline-block" href="#" rel="ugc">
+                    <img src="./assets/logo.svg" alt="image of a logo">
+                    <span class="sr-only">Home</span>
+                </a>
+                <div class="space-y-2">
+                    <h1 class="text-3xl font-bold">Welcome Back</h1>
+                    <p class="text-gray-500 dark:text-gray-400">Enter your Username below to login to your account</p>
+                </div>
+            </div>
+            <div class="space-y-4">
+                <div class="space-y-2">
+                    <label
+                        class=""
+                        for="username">
+                        Username
+                    </label>
+                    <input type="email"
+                        class=""
+                        id="username" placeholder="m@example.com" />
+                </div>
+                <div class="space-y-2">
+                    <label
+                        class=""
+                        for="password">
+                        Password
+                    </label>
+                    <input type="password"
+                        class=""
+                        id="password" />
+                </div>
+                <button
+                    class="primary_btn">
+                    Login
+                </button>
+            </div>
+            <div class="space-y-4">
+                <div class="mt-4 flex items-center space-x-2.5 text-sm">
+                    <span class="mr-2.5">Don't have an account?</span>
+                    <a class="font-medium underline underline-offset-2" href="#" rel="ugc">
+                        Sign up
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
